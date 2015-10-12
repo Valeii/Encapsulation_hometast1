@@ -7,9 +7,6 @@ public class Motorcycle extends Bicycle {
     private static boolean activity;
     private static int horsepower;
 
-    public Motorcycle(int weight, String brand, String colour, int NumberOfWheels, int speed, int time) {
-        super(weight, brand, colour, NumberOfWheels, speed, time);
-    }
 
     public static String getFrame() {
 

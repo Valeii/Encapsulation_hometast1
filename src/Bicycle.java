@@ -27,13 +27,12 @@ public class Bicycle {
         Bicycle.time = time;
     }
 
-    public Bicycle(int weight,String brand,String colour,int NumberOfWheels,int speed,int time) {
-    }
 
-    private int CalculateDistance(int speed,int time){
+
+    public void CalculateDistance(int speed,int time){
         int d;
         d = speed*time;
-        return d;
+        System.out.println("скорость транспорта =" + d + "м");
 
     }
 

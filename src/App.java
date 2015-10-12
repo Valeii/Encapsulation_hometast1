@@ -12,7 +12,7 @@ public class App {
         awp.setActivity(true);
         awp.setHorsepower(120);
         awp.setTime(8);
-
+        awp.CalculateDistance(56,35);
 
     }
 }
